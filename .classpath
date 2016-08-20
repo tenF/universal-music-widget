@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/InMobi-4.3.0.jar"/>
+	<classpathentry kind="lib" path="libs/libadapterinmobi.jar"/>
+	<classpathentry kind="lib" path="libs/MMAdMobAdapter_1_5_0.jar"/>
+	<classpathentry kind="lib" path="libs/MMSDK.jar"/>
+	<classpathentry kind="lib" path="libs/nmdp_speech_kit.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/remote-metadata-provider-v18.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/remote-metadata-provider.jar"/>
+	<classpathentry exported="true" kind="lib" path="/google-play-services_lib/libs/google-play-services.jar"/>
+	<classpathentry kind="lib" path="/WalkmanMusicWidget/libs/StartAppInApp-2.4.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/v10/Documents/AppRate_1.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

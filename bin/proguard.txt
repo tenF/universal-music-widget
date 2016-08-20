@@ -1,0 +1,91 @@
+# view AndroidManifest.xml #generated:181
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class com.inmobi.androidsdk.IMBrowserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.inmobi.commons.analytics.androidsdk.IMAdTrackerReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class com.millennialmedia.android.MMActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.millennialmedia.android.VideoPlayer { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.startapp.android.publish.AppWallActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class com.startapp.android.publish.list3d.List3DActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class com.voiche.universalmusicwidget.Configure { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.voiche.universalmusicwidget.Configure_4x2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class com.voiche.universalmusicwidget.Configure_4x3 { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.voiche.universalmusicwidget.Configure_4x4 { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.voiche.universalmusicwidget.Configure_simple { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.voiche.universalmusicwidget.MusicService { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.voiche.universalmusicwidget.MusicService_v18 { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.voiche.universalmusicwidget.MusicService_v19 { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.voiche.universalmusicwidget.MusicService_v21 { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.voiche.universalmusicwidget.UniversalMusicWidget { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.voiche.universalmusicwidget.UniversalMusicWidget_4x2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.voiche.universalmusicwidget.UniversalMusicWidget_4x3 { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.voiche.universalmusicwidget.UniversalMusicWidget_4x4 { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.voiche.universalmusicwidget.UniversalMusicWidget_simple { <init>(...); }
+
+# view land/res/layout-land/dialog_color_picker.xml #generated:62
+# view land/res/layout-land/dialog_color_picker.xml #generated:77
+# view res/layout/dialog_color_picker.xml #generated:51
+# view res/layout/dialog_color_picker.xml #generated:66
+-keep class net.margaritov.preference.colorpicker.ColorPickerPanelView { <init>(...); }
+
+# view res/layout/configure.xml #generated:38
+# view res/layout/configure.xml #generated:45
+# view res/layout/configure.xml #generated:59
+# view res/layout/configure_4x2.xml #generated:31
+# view res/layout/configure_4x2.xml #generated:38
+# view res/layout/configure_4x2.xml #generated:52
+# view res/layout/configure_4x3.xml #generated:31
+# view res/layout/configure_4x3.xml #generated:38
+# view res/layout/configure_4x3.xml #generated:52
+# view res/layout/configure_4x4.xml #generated:31
+# view res/layout/configure_4x4.xml #generated:45
+# view res/layout/configure_simple.xml #generated:31
+# view res/xml/settings.xml #generated:10
+# view res/xml/settings.xml #generated:17
+# view res/xml/settings.xml #generated:24
+# view res/xml/settings.xml #generated:4
+-keep class net.margaritov.preference.colorpicker.ColorPickerPreference { <init>(...); }
+
+# view land/res/layout-land/dialog_color_picker.xml #generated:26
+# view res/layout/dialog_color_picker.xml #generated:9
+-keep class net.margaritov.preference.colorpicker.ColorPickerView { <init>(...); }
+

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:summary="Actually, this is useful to know"
+        android:title="Tips and tricks" >
+
+        <Preference
+            android:summary="Double-tap background to open settings"
+            android:title="Edit widget settings" />
+
+        <Preference
+            android:summary="Tap on album art or track name to open player"
+            android:title="Open player" />
+
+        <Preference
+            android:summary="If for some reasons the widget is unresponsive, try resizing it in order to refresh it and avoid re-installation"
+            android:title="Refresh widget" />
+
+        <Preference
+            android:summary="If for some reasons the widget is misbehaving, please reboot your phone"
+            android:title="After update" />
+
+        <Preference
+            android:summary="If you experience some problems that cannot be fixed with rebooting your phone and clearing app data and cache please use the contact information from the previous screen down below"
+            android:title="Bugs" />
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="APPEARANCE" >
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/marginArray"
+            android:entryValues="@array/marginValues"
+            android:key="margins"
+            android:title="Top and bottom margin size" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="true"
+            android:defaultValue="@color/transblack"
+            android:key="bgrcolor"
+            android:summary="Choose background color"
+            android:title="Background color" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@color/white"
+            android:key="tnfontcolor"
+            android:summary="Choose color for track name"
+            android:title="Track name color" />
+
+        <ListPreference
+            android:defaultValue="14"
+            android:entries="@array/fontArray"
+            android:entryValues="@array/fontValues"
+            android:key="tnfontsize"
+            android:title="Track name font size" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@color/white"
+            android:key="fontcolor"
+            android:summary="Choose color for artist name"
+            android:title="Artist name color" />
+
+        <ListPreference
+            android:defaultValue="12"
+            android:entries="@array/fontArray"
+            android:entryValues="@array/fontValues"
+            android:key="fontsize"
+            android:title="Artist name font size" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/buttonArray"
+            android:entryValues="@array/buttonValues"
+            android:key="buttonPref"
+            android:title="Button style" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="daa"
+            android:summary="Display album art"
+            android:title="Album art" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lsm"
+            android:summary="Show the widget only while the music is playing"
+            android:title="Auto-hide Widget" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="ABOUT" >
+
+        <Preference
+            android:key="cpRC"
+            android:summary="Leave feedback on Google Play store"
+            android:title="Rate and Comment" />
+
+        <Preference
+            android:key="cpFL"
+            android:summary="Check out my newest app Floating Lyrics"
+            android:title="Floating Lyrics" />
+
+        <Preference
+            android:key="cpOA"
+            android:summary="Check out my other apps"
+            android:title="My other apps" />
+
+        <Preference
+            android:key="cpTwitter"
+            android:summary="@string/fmtsum"
+            android:title="Follow me on Twitter" />
+
+        <Preference
+            android:key="customPref"
+            android:summary="@string/emailmesum"
+            android:title="Contact me" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
